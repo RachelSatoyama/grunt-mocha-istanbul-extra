@@ -309,6 +309,14 @@ module.exports = function (grunt) {
 
         args = args.concat(masked);
 
+        if (options.extraOptions) {
+            arrayOfStrings(options.extraOptions, 'options.extraOptions', function(options){
+                options.forEach(function (opt) {
+                    args.push(opt);
+                });
+            })
+        }
+
         grunt.verbose.ok('Will execute:', options.nodeExec + ' ' + args.join(' '));
 
         if (!options.dryRun) {

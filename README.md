@@ -1,8 +1,3 @@
-[![Dependency Status](https://david-dm.org/pocesar/grunt-mocha-istanbul.png?theme=shields.io)](https://david-dm.org/pocesar/grunt-mocha-istanbul)
-[![Build Status](https://travis-ci.org/pocesar/grunt-mocha-istanbul.svg?branch=master)](https://travis-ci.org/pocesar/grunt-mocha-istanbul)
-
-[![NPM](https://nodei.co/npm/grunt-mocha-istanbul.png?downloads=true&stars=true)](https://nodei.co/npm/grunt-mocha-istanbul/)
-
 # grunt mocha istanbul task
 
 > [Mocha](https://mochajs.org) reporter to generate coverage report of [istanbul](http://gotwarlost.github.com/istanbul/) instrumented code, for grunt
@@ -225,6 +220,16 @@ Default Value: `false`
 An array of strings, any additional mocha parameters, manually set.
 
 Eg.: `mochaOptions: ['--harmony', '-s', '100']`
+
+### options.extraOptions
+
+Type: `Array`
+
+Default Value: `false`
+
+An array of strings, any additional parameters that are passed to the code executed.
+
+Eg.: `mochaOptions: ['--log-level', '10']
 
 ### Istanbul options
 
