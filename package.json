@@ -1,6 +1,6 @@
 {
   "name"            : "grunt-mocha-istanbul-extra",
-  "version"         : "5.0.2.1",
+  "version"         : "5.0.2-1",
   "description"     : "Almost config-free Istanbul code coverage reporter for Mocha usage in Grunt. Fully compliant with grunt-mocha-istanbule but more customizeable",
   "peerDependencies": {
     "grunt": ">=0.4.0"
